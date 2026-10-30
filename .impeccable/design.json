@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-29T12:48:17Z",
+  "title": "Design System: CareCompass",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Ivory Ground",
+        "canonical": "#F4F8F5",
+        "tonalRamp": [
+          "#23352B",
+          "#42554A",
+          "#617469",
+          "#809488",
+          "#9FB3A7",
+          "#BECFC3",
+          "#DCE8DF",
+          "#F4F8F5"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Paper White",
+        "canonical": "#FFFFFF",
+        "tonalRamp": [
+          "#303632",
+          "#515954",
+          "#737B76",
+          "#969E99",
+          "#B8BFBA",
+          "#D1D7D3",
+          "#E8EBE9",
+          "#FFFFFF"
+        ]
+      },
+      "surface-soft": {
+        "role": "neutral",
+        "displayName": "Sage Wash",
+        "canonical": "#EAF2EC",
+        "tonalRamp": [
+          "#263A2D",
+          "#435849",
+          "#607567",
+          "#7D9284",
+          "#9AAF9F",
+          "#B7CBBB",
+          "#D0E0D4",
+          "#EAF2EC"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Leaf Border",
+        "canonical": "#D7E4DA",
+        "tonalRamp": [
+          "#26372C",
+          "#45564A",
+          "#647569",
+          "#839488",
+          "#A2B3A6",
+          "#BCCBBF",
+          "#CBD9CE",
+          "#D7E4DA"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Forest Ink",
+        "canonical": "#24352B",
+        "tonalRamp": [
+          "#16221A",
+          "#24352B",
+          "#3E5145",
+          "#596B5F",
+          "#75867B",
+          "#95A49A",
+          "#BAC5BD",
+          "#F4F8F5"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Soft Bark",
+        "canonical": "#52645A",
+        "tonalRamp": [
+          "#26332B",
+          "#39483F",
+          "#52645A",
+          "#6D7E74",
+          "#89988F",
+          "#A7B3AC",
+          "#C7D0CA",
+          "#F4F8F5"
+        ]
+      },
+      "sage": {
+        "role": "primary",
+        "displayName": "Field Sage",
+        "canonical": "#4E7660",
+        "tonalRamp": [
+          "#1D2E24",
+          "#2D4838",
+          "#3E614D",
+          "#4E7660",
+          "#6C907B",
+          "#91AE9C",
+          "#BDD0C3",
+          "#F4F8F5"
+        ]
+      },
+      "sage-dark": {
+        "role": "primary",
+        "displayName": "Deep Sage",
+        "canonical": "#365B48",
+        "tonalRamp": [
+          "#17281E",
+          "#244331",
+          "#365B48",
+          "#4F755F",
+          "#71917E",
+          "#9DB5A6",
+          "#C6D5CB",
+          "#F4F8F5"
+        ]
+      },
+      "amber": {
+        "role": "tertiary",
+        "displayName": "Quiet Amber",
+        "canonical": "#755515",
+        "tonalRamp": [
+          "#2D2108",
+          "#49340D",
+          "#60460F",
+          "#755515",
+          "#96732B",
+          "#B99A5A",
+          "#D8C69A",
+          "#F6F0DF"
+        ]
+      },
+      "coral": {
+        "role": "tertiary",
+        "displayName": "Muted Coral",
+        "canonical": "#7A2D30",
+        "tonalRamp": [
+          "#301214",
+          "#501E21",
+          "#672629",
+          "#7A2D30",
+          "#995154",
+          "#B98082",
+          "#D8B2B3",
+          "#F9E9E8"
+        ]
+      },
+      "blue": {
+        "role": "secondary",
+        "displayName": "Measured Blue",
+        "canonical": "#365F82",
+        "tonalRamp": [
+          "#152638",
+          "#223E56",
+          "#2D506F",
+          "#365F82",
+          "#587FA0",
+          "#86A3BA",
+          "#B8CAD7",
+          "#EAF2F6"
+        ]
+      },
+      "green": {
+        "role": "secondary",
+        "displayName": "Grounded Green",
+        "canonical": "#325D48",
+        "tonalRamp": [
+          "#14271D",
+          "#213F30",
+          "#2B503D",
+          "#325D48",
+          "#527B65",
+          "#81A08D",
+          "#B3C8BA",
+          "#E9F3EB"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "App Title",
+        "purpose": "Page titles and personal greetings."
+      },
+      "headline": {
+        "displayName": "Section Heading",
+        "purpose": "Sections and sub-sections."
+      },
+      "body": {
+        "displayName": "Body Copy",
+        "purpose": "Questions, dated records, and explanatory copy."
+      },
+      "label": {
+        "displayName": "UI Label",
+        "purpose": "Field labels, short section labels, and status captions."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "route-enter",
+        "value": "220ms cubic-bezier(.2,.72,.2,1); opacity 0→1; translateY(7px→0)",
+        "purpose": "Brief route entry and assessment transitions; disabled for reduced-motion preference."
+      },
+      {
+        "name": "control-hover",
+        "value": "180ms ease",
+        "purpose": "Subtle button hover feedback."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "Collapse animations and transitions and disable smooth scrolling."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tablet",
+        "value": "900px"
+      },
+      {
+        "name": "mobile",
+        "value": "640px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Primary next step or save action, with a clear hover and keyboard focus state.",
+      "html": "<button class=\"ds-button-primary\">Continue</button>",
+      "css": ".ds-button-primary { min-height: 44px; padding: 0 16px; border: 1px solid #4E7660; border-radius: 12px; background: #4E7660; color: #FFFFFF; font: 600 13px/1.45 -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; cursor: pointer; transition: background-color 180ms ease, border-color 180ms ease, transform 180ms ease; } .ds-button-primary:hover { background: #365B48; border-color: #365B48; transform: translateY(-1px); } .ds-button-primary:active { transform: translateY(0); } .ds-button-primary:focus-visible { outline: 3px solid #89AA94; outline-offset: 2px; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Lower-emphasis action for adjacent or optional choices.",
+      "html": "<button class=\"ds-button-secondary\">View history</button>",
+      "css": ".ds-button-secondary { min-height: 44px; padding: 0 16px; border: 1px solid #D7E4DA; border-radius: 12px; background: #FFFFFF; color: #24352B; font: 500 13px/1.45 -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; cursor: pointer; transition: background-color 180ms ease, border-color 180ms ease, color 180ms ease; } .ds-button-secondary:hover { border-color: #AFC6B5; background: #F7FAF8; color: #365B48; } .ds-button-secondary:focus-visible { outline: 3px solid #89AA94; outline-offset: 2px; }"
+    },
+    {
+      "name": "Text Input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "A labeled field for profile details and reflective notes.",
+      "html": "<input class=\"ds-input\" aria-label=\"Your note\" placeholder=\"Write a note\" />",
+      "css": ".ds-input { min-height: 44px; width: 100%; padding: 10px 12px; border: 1px solid #C8D8CD; border-radius: 12px; background: #FFFFFF; color: #24352B; font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; } .ds-input:focus-visible { outline: 3px solid #89AA94; outline-offset: 2px; } .ds-input::placeholder { color: #52645A; }"
+    },
+    {
+      "name": "Record Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "A white, lightly outlined surface for dated observations.",
+      "html": "<article class=\"ds-card\"><strong>29 October 2026</strong><p>One observation from today.</p></article>",
+      "css": ".ds-card { padding: 16px; border: 1px solid #D7E4DA; border-radius: 18px; background: #FFFFFF; color: #24352B; font: 400 16px/1.62 -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; } .ds-card strong { font-weight: 600; } .ds-card p { margin: 8px 0 0; color: #52645A; }"
+    },
+    {
+      "name": "Status Badge",
+      "kind": "chip",
+      "refersTo": "status-badge",
+      "description": "A text-led status with a pale color pair; label carries the meaning.",
+      "html": "<span class=\"ds-status\">Steady</span>",
+      "css": ".ds-status { display: inline-flex; align-items: center; min-height: 26px; padding: 3px 10px; border-radius: 999px; background: #E9F3EB; color: #325D48; font: 600 12px/1.35 -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Field Notes Journal",
+    "overview": "CareCompass is a light, quiet place for an individual to record how they are doing and revisit dated observations. The visual voice is personal and grounded: clean white panels sit on a soft sage-tinted ground, while restrained green accents help people find the next step without making the interface feel clinical or urgent by default.\n\nUse a clear app-scale hierarchy, readable explanatory copy, and small line icons only where they aid recognition. Results are screening categories and personal observations, never a diagnosis or a measure of progress. Keep support and safety language visible and plain. The palette is light-only; do not introduce a dark theme.",
+    "keyCharacteristics": [
+      "Soft sage accents on clean white and ivory-green surfaces.",
+      "Dated, observational language for personal records and screening history.",
+      "Calm, concise next steps with safety guidance preserved.",
+      "One consistent inline SVG line-icon system; no emoji.",
+      "Short, purposeful route and assessment transitions that honor reduced-motion preferences."
+    ],
+    "rules": [
+      {
+        "name": "The Observation Rule",
+        "body": "Color may distinguish status, but never imply that a screening category is a diagnosis or proof of personal progress.",
+        "section": "colors"
+      },
+      {
+        "name": "The Plain-Language Rule",
+        "body": "Screening labels and observations use accompanying plain-language context; typography must not create clinical authority the product does not have.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "Do use the light-only ivory, white, and sage surface system.",
+      "Do keep CareCompass safety, consent, privacy, and non-diagnostic language clear and intact.",
+      "Do describe history in dated, observational terms and compare result categories explicitly.",
+      "Do pair status colors with readable labels and keep calm next steps easy to find.",
+      "Do use one accessible inline SVG line-icon family and no emoji.",
+      "Do keep route and assessment motion short and respect `prefers-reduced-motion`."
+    ],
+    "donts": [
+      "Don't use dark surfaces, emoji, or a second competing icon style.",
+      "Don't present categories as diagnoses, treatment advice, or evidence of progress.",
+      "Don't use color alone to communicate urgency, severity, selection, or validation.",
+      "Don't alter scoring, safety behavior, consent, persistence, or data handling through visual work."
+    ]
+  }
+}

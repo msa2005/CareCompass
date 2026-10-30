@@ -1,0 +1,8 @@
+# Local runtime dependencies used by the project and its existing model artifacts.
+streamlit
+pandas
+supabase
+groq
+joblib
+scikit-learn
+xgboost
